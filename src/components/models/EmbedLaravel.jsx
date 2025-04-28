@@ -1,0 +1,2 @@
+export const EmbedLaravel = () => { 
+  <iframe title="Laravel Logo" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/9f5c0e1a719043389e8ea527d483f07d/embed?transparent=1"> </iframe>}
