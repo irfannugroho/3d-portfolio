@@ -89,28 +89,28 @@ const navLinks = [
     },
   ];
   
-  const techStackImgs = [
-    {
-      name: "Laravel Developer",
-      imgPath: "/images/logos/laravel.png",
-    },
-    // {
-    //   name: "Python Developer",
-    //   imgPath: "/images/logos/python.svg",
-    // },
-    // {
-    //   name: "Backend Developer",
-    //   imgPath: "/images/logos/node.png",
-    // },
-    // {
-    //   name: "Interactive Developer",
-    //   imgPath: "/images/logos/three.png",
-    // },
-    // {
-    //   name: "Project Manager",
-    //   imgPath: "/images/logos/git.svg",
-    // },
-  ];
+  // const techStackImgs = [
+  //   {
+  //     name: "Laravel Developer",
+  //     imgPath: "/images/logos/laravel.png",
+  //   },
+  //   // {
+  //   //   name: "Python Developer",
+  //   //   imgPath: "/images/logos/python.svg",
+  //   // },
+  //   // {
+  //   //   name: "Backend Developer",
+  //   //   imgPath: "/images/logos/node.png",
+  //   // },
+  //   // {
+  //   //   name: "Interactive Developer",
+  //   //   imgPath: "/images/logos/three.png",
+  //   // },
+  //   // {
+  //   //   name: "Project Manager",
+  //   //   imgPath: "/images/logos/git.svg",
+  //   // },
+  // ];
   
   const techStackIcons = [
     {
@@ -131,12 +131,12 @@ const navLinks = [
       scale: 5,
       rotation: [0, -Math.PI / 2, 0],
     },
-    // {
-    //   name: "Interactive Developer",
-    //   modelPath: "/models/laravel.glb",
-    //   scale: 0.05,
-    //   rotation: [0, 0, 0],
-    // },
+    {
+      name: "Laravel Developer",
+      modelPath: "/models/laravel-logo.glb",
+      scale: 2,
+      rotation: [0, 0, 0],
+    },
     {
       name: "Project Manager",
       modelPath: "/models/git-svg-transformed.glb",
@@ -269,6 +269,6 @@ const navLinks = [
     testimonials,
     socialImgs,
     techStackIcons,
-    techStackImgs,
+    // techStackImgs,
     navLinks,
   };
